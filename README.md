@@ -36,6 +36,31 @@ O objetivo deste repositório é centralizar utilitários e automações que aux
 
 3. Siga as instruções específicas de cada ferramenta no respectivo diretório.
 
+---
+
+## Análise de cobertura
+Para utilizar a análise de cobertura da sua documentação você precisa gerar os embeddings para o seu *corpus*.
+Para isso você pode utilizar um dos modelos de LLM disponíveis ou o toolkit [docs-cli](https://github.com/mtgr18977/docs-cli-toolkit) feito por mim mesmo.
+
+Para utilizar você vai precisar ter os seus documentos técnicos em formato `.md` em um mesmo diretório (pode conter subdiretórios). Você deverá, então, ter um front0matter na sua documentação conforme o modelo:
+
+```txt
+## Metadata_Start 
+## code: en
+## title: <title> 
+## slug: <slug> 
+## seoTitle: <seo> 
+## description: <description> 
+## contentType: Markdown
+## Metadata_End
+```
+
+Ou então atualizar os scripts conforme o seu front-matter.
+
+Você também precisará extrair as informações dos seus documentos, agrupá-los em um índice (em `.json`) e então gerar os embeddings para esses documentos.
+
+---
+
 ## Licença
 
 Este projeto está licenciado sob a licença MIT.

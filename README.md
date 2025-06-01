@@ -24,23 +24,22 @@ O objetivo deste repositório é centralizar utilitários e automações que aux
 
 1. Clone este repositório:
 
-    ```bash
-    git clone https://github.com/mtgr18977/text-tools.git
-    ```
-
+   ```bash
+   git clone https://github.com/mtgr18977/text-tools.git
+   ```
 2. Navegue até a pasta do projeto:
 
-    ```bash
-    cd text-tools
-    ```
-
+   ```bash
+   cd text-tools
+   ```
 3. Siga as instruções específicas de cada ferramenta no respectivo diretório.
 
 ---
 
 ## Análise de cobertura
+
 Para utilizar a análise de cobertura da sua documentação você precisa gerar os embeddings para o seu *corpus*.
-Para isso você pode utilizar um dos modelos de LLM disponíveis ou o toolkit [docs-cli](https://github.com/mtgr18977/docs-cli-toolkit) feito por mim mesmo.
+Para isso você pode utilizar um dos modelos de LLM disponíveis ou o toolkit [docs-cli](https://github.com/your-username/docs-cli-toolkit) feito por mim mesmo.
 
 Para utilizar você vai precisar ter os seus documentos técnicos em formato `.md` em um mesmo diretório (pode conter subdiretórios). Você deverá, então, ter um front0matter na sua documentação conforme o modelo:
 

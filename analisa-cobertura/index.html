@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Análise de Cobertura da Documentação - Segura - 2025</title>
+    <title>Análise de Cobertura da Documentação - 2025</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
@@ -324,7 +324,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Análise de cobertura da documentação - Segura - 2025</h1>
+        <h1>Análise de cobertura da documentação - 2025</h1>
         <p class="subtitle">Esta ferramenta permite analisar a cobertura da documentação existente, identificando lacunas e sugerindo melhorias.</p>
 
         <div class="config-section">
@@ -637,7 +637,7 @@
                         docItem.classList.add('doc-item');
                         docItem.innerHTML = `
                             <p><strong>Título:</strong> ${doc.title || 'N/A'}</p>
-                            <p><strong>Slug:</strong> <a href="https://docs.senhasegura.io/v4/docs/${doc.slug || 'N/A'}" target="_blank">${doc.slug || 'N/A'}</a></p>
+                            <p><strong>Slug:</strong> <a href="/docs/${doc.slug || 'N/A'}" target="_blank">${doc.slug || 'N/A'}</a></p>
                             <p><strong>Arquivo:</strong> ${doc.filepath || 'N/A'}</p>
                             <p><strong>Relevância:</strong> ${doc.relevance || 'N/A'}</p>
                         `;
